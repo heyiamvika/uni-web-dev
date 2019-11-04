@@ -7,6 +7,7 @@
 }
 
 a {
+	color: inherit;
 	text-decoration: none;
 }
 
@@ -63,6 +64,7 @@ footer {
 
 	display: flex;
 	justify-content: left;
+	flex-wrap: wrap;
 }
 
 footer p,
@@ -117,4 +119,23 @@ footer #footer-sitemap ul .group:nth-child(1) {
 
 footer #footer-sitemap ul .group:nth-child(2) {
 	margin-right: 135px;
+}
+
+/* Components and text styles */
+
+.green-button {
+	width: 180px;
+	height: 54px;
+	background-color: #10c9c3;
+
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 1.2px;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
 }

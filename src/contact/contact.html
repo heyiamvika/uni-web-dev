@@ -3,9 +3,9 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Основи WEB-програмування - About</title>
+		<title>Основи WEB-програмування - Contact</title>
 		<link rel="stylesheet" href="../index.css" />
-		<link rel="stylesheet" href="./about.css" />
+		<link rel="stylesheet" href="./contact.css" />
 	</head>
 
 	<body>
@@ -13,12 +13,73 @@
 			<img id="home-logo" src="../../assets/code.svg" />
 			<nav>
 				<a href="../index.html">Home</a>
-				<a href="./about/about.html" id="focused">About</a>
-				<a>Contact</a>
+				<a href="../about/about.html">About</a>
+				<a href="./contact.html" id="focused">Contact</a>
 			</nav>
 		</header>
 
-		<main> </main>
+		<main>
+			<div id="contact-wrapper">
+				<section id="contact-info">
+					<h2>Contact Info:</h2>
+					<p id="contact-info-summary">
+						To give give beginning divide, cattle. Give moving won't, there the
+						abundantly she'd she'd brought air upon. Light hath subdue. Life
+						days creature upon first heaven gathering dry.
+					</p>
+					<div id="contact-info-contacts">
+						<p class="contact-info-contacts-row">
+							<span class="contact-title">Address:</span>
+							<span>
+								<a
+									href="http://maps.google.com/?q= 10111 Santa Monica Boulevard, LA"
+								>
+									10111 Santa Monica Boulevard, LA
+								</a>
+							</span>
+						</p>
+						<p class="contact-info-contacts-row">
+							<span class="contact-title">Phone:</span>
+							<span><a href="callto:+44 987 065 908">+44 987 065 908</a></span>
+						</p>
+						<p class="contact-info-contacts-row">
+							<span class="contact-title">Email:</span>
+							<span
+								><a href="mailto:info@Example.com">info@Example.com</a></span
+							>
+						</p>
+						<p class="contact-info-contacts-row">
+							<span class="contact-title">Telegram:</span>
+							<span><a href="https://t.me/heyiamvika">@heyiamvika</a></span>
+						</p>
+					</div>
+				</section>
+				<section id="contact-form">
+					<form name="send-message-form">
+						<input
+							type="text"
+							class="input-short"
+							name="user-name"
+							placeholder="Your Name"
+						/>
+						<input
+							type="email"
+							class="input-short"
+							name="user-email"
+							placeholder="Your Email"
+						/>
+						<input type="text" name="user-title" placeholder="Your Title" />
+						<textarea name="user-comment" placeholder="Your Comment"></textarea>
+						<button type="submit" class="green-button" id="submit-button"
+							>send message
+						</button>
+					</form>
+				</section>
+			</div>
+			<section id="contact-map">
+				<div id="google-map"> </div>
+			</section>
+		</main>
 
 		<footer>
 			<div id="footer-credentials">
