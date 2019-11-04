@@ -258,4 +258,10 @@ footer .footer-sitemap ul .group:nth-child(2) {
 		max-width: 100%;
 		margin: 0 0 70px 0;
 	}
+
+	/* Components  */
+	.green-button {
+		width: 60%;
+		height: 5vh;
+	}
 }

@@ -1,7 +1,7 @@
 /* Head */
 
 main #about-head {
-	height: 350px;
+	min-height: 350px;
 	opacity: 0.8;
 	background-color: #141414;
 
@@ -61,6 +61,7 @@ main #about-me div {
 }
 
 main #about-me #about-me-image {
+	height: inherit;
 	background-color: #e1e1e1;
 }
 

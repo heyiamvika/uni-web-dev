@@ -1,0 +1,75 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+	/* About head */
+
+	main #about-head {
+		padding: 15%;
+	}
+
+	main #about-head h1,
+	main #about-head p {
+		max-width: 100%;
+	}
+
+	main #about-head h1 {
+		margin-bottom: 70px;
+		line-height: inherit;
+	}
+
+	/* About achievments */
+
+	main #about-achievments {
+		flex-direction: column;
+	}
+
+	main #about-achievments .box {
+		min-width: 100%;
+		margin-bottom: 10%;
+	}
+
+	main #about-achievments .box .image-box {
+		margin-right: 10%;
+	}
+
+	main #about-achievments .box .text-box {
+		max-width: 100%;
+	}
+
+	/* About me */
+
+	main #about-me {
+		flex-direction: column;
+	}
+
+	main #about-me div {
+		width: 100%;
+	}
+
+	main #about-me #about-me-info {
+		padding: 100px;
+	}
+
+	main #about-me #about-me-info #about-me-info-sign {
+		width: 40%;
+		height: 100%;
+
+		margin-top: 70px;
+	}
+
+	/* Call to action */
+
+	main #about-call-to-action {
+		padding: 100px;
+	}
+
+	main #about-call-to-action h2 {
+		max-width: 100%;
+		margin-bottom: 70px;
+		line-height: 1.5;
+	}
+
+	main #about-call-to-action p {
+		max-width: 100%;
+		text-align: left;
+		margin-bottom: 100px;
+	}
+}
