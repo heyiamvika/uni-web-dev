@@ -36,9 +36,9 @@ function appendAchievments() {
 		textBox.className = 'text-box';
 		const image = document.createElement('img');
 		const count = document.createElement('span');
-		count.className = 'text-box-count';
+		count.className = 'about-text count-text';
 		const text = document.createElement('span');
-		text.className = 'text-box-text';
+		text.className = 'about-text white-capitalized-text';
 
 		count.innerHTML = String(Math.round(item.count));
 		text.innerHTML = item.title;

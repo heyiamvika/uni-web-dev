@@ -11,28 +11,9 @@ main #about-head {
 	justify-content: center;
 }
 
-main #about-head h1 {
-	max-width: 512px;
-	font-family: Montserrat;
-	font-size: 38px;
-	font-weight: 500;
-	line-height: 2.21;
-	letter-spacing: 0.38px;
-	text-align: center;
-	color: #ffffff;
-}
-
+main #about-head h1,
 main #about-head p {
 	max-width: 512px;
-	font-family: NunitoSans;
-	font-size: 18px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.56;
-	letter-spacing: 0.09px;
-	text-align: center;
-	color: #ffffff;
 }
 
 /* Achievments */
@@ -68,27 +49,6 @@ main #about-achievments .box .text-box {
 	max-width: 170px;
 }
 
-main #about-achievments .box .text-box span {
-	font-family: Montserrat;
-	font-weight: 500;
-	font-stretch: normal;
-	font-style: normal;
-	letter-spacing: 1.2px;
-	text-align: left;
-	color: #ffffff;
-	text-transform: uppercase;
-}
-
-main #about-achievments .box .text-box .text-box-count {
-	font-size: 18px;
-	line-height: 1.67;
-}
-
-main #about-achievments .box .text-box .text-box-text {
-	font-size: 12px;
-	line-height: 2.5;
-}
-
 /* About me */
 
 main #about-me {
@@ -116,30 +76,10 @@ main #about-me #about-me-info {
 }
 
 main #about-me #about-me-info h2 {
-	font-family: Montserrat;
-	font-size: 30px;
-	font-weight: 500;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 2.8;
-	letter-spacing: 0.3px;
-	text-align: left;
-	color: #171717;
-
 	margin-bottom: 40px;
 }
 
 main #about-me #about-me-info p {
-	font-family: NunitoSans;
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.5;
-	letter-spacing: 0.08px;
-	text-align: left;
-	color: #787878;
-
 	margin-bottom: 15px;
 }
 
@@ -160,30 +100,13 @@ main #about-call-to-action {
 }
 
 main #about-call-to-action h2 {
-	max-width: 235px;
+	max-width: 350px;
 	margin-bottom: 35px;
-
-	font-family: Montserrat;
-	font-size: 30px;
-	font-weight: 500;
-	font-stretch: normal;
-	font-style: normal;
-	letter-spacing: 0.3px;
-	text-align: center;
-	color: #1d1d1d;
 }
 
 main #about-call-to-action p {
 	max-width: 537px;
 	margin-bottom: 38px;
 
-	font-family: NunitoSans;
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.5;
-	letter-spacing: 0.08px;
 	text-align: center;
-	color: #787878;
 }

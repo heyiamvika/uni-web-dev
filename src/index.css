@@ -36,17 +36,6 @@ header nav {
 	min-width: 215px;
 	display: flex;
 	justify-content: space-between;
-
-	font-family: Montserrat;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: 500;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 2;
-	letter-spacing: 1.2px;
-	text-align: left;
-	color: #191919;
 }
 
 header nav a:hover,
@@ -123,6 +112,8 @@ footer #footer-sitemap ul .group:nth-child(2) {
 
 /* Components and text styles */
 
+/* Buttons */
+
 .green-button {
 	width: 180px;
 	height: 54px;
@@ -138,4 +129,87 @@ footer #footer-sitemap ul .group:nth-child(2) {
 	text-align: center;
 	vertical-align: middle;
 	color: #ffffff;
+}
+
+/* Heading */
+
+.heading {
+	font-family: Montserrat;
+	font-size: 38px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.21;
+	letter-spacing: 0.38px;
+}
+
+.heading-black {
+	text-align: left;
+	color: #171717;
+}
+
+.heading-white {
+	text-align: center;
+	color: #ffffff;
+}
+
+/* Text */
+
+.simple-text {
+	font-family: NunitoSans;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: 0.08px;
+	text-align: left;
+	color: #787878;
+}
+
+.simple-text-white {
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.simple-text-heading {
+	line-height: 1.88;
+
+	font-weight: bold;
+	color: #171717;
+}
+
+.nav-text {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: 1.2px;
+	text-align: left;
+	color: #191919;
+}
+
+.about-text {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 1.2px;
+	text-align: left;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.count-text {
+	font-size: 18px;
+	line-height: 1.67;
+}
+
+.white-capitalized-text {
+	font-size: 12px;
+	line-height: 2.5;
 }

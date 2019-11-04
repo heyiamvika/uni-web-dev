@@ -10,28 +10,10 @@ main #home-head {
 	justify-content: center;
 }
 
-main #home-head h1 {
-	max-width: 512px;
-	font-family: Montserrat;
-	font-size: 38px;
-	font-weight: 500;
-	line-height: 2.21;
-	letter-spacing: 0.38px;
-	text-align: center;
-	color: #171717;
-}
-
+main #home-head h1,
 main #home-head p {
 	max-width: 512px;
-	font-family: NunitoSans;
-	font-size: 18px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.56;
-	letter-spacing: 0.09px;
 	text-align: center;
-	color: #787878;
 }
 
 /* Home grid */
