@@ -55,12 +55,18 @@ function appendDivsToGrid(arr) {
 			newProjectHover.appendChild(hoverImage);
 
 			// on Hover functionality
-			wrapper.onmouseover = function(event) {
-				newProjectHover.style.display = 'flex';
-			};
-			wrapper.onmouseleave = function(event) {
-				newProjectHover.style.display = 'none';
-			};
+			// Only for desktops
+			if (typeof window.orientation !== 'undefined') {
+				console.log('Mobile!');
+			} else {
+				console.log('Desktop!');
+				wrapper.onmouseover = function(event) {
+					newProjectHover.style.display = 'flex';
+				};
+				wrapper.onmouseleave = function(event) {
+					newProjectHover.style.display = 'none';
+				};
+			}
 
 			// Append wrapper to the row
 			wrapper.appendChild(newProject);

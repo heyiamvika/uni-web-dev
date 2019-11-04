@@ -6,6 +6,7 @@
 		<title>Основи WEB-програмування - Home</title>
 		<link rel="stylesheet" href="./index.css" />
 		<link rel="stylesheet" href="home/home.css" />
+		<link rel="stylesheet" href="home/home-responsive.css" />
 	</head>
 
 	<body>
@@ -33,8 +34,10 @@
 		</main>
 
 		<footer>
-			<div id="footer-credentials">
-				<p id="company-name">Vika Nosova, Inc.</p>
+			<!-- <div id="footer-credentials" class="footer-box"> -->
+			<!-- There was a conflict in mobile version, since id is stronger in CSS inheritance -->
+			<div class="footer-box footer-credentials">
+				<h2 id="company-name">Vika Nosova, Inc.</h2>
 				<p>
 					Icons made by
 					<a href="https://www.flaticon.com/authors/freepik" title="Freepik"
@@ -46,7 +49,7 @@
 					>
 				</p>
 			</div>
-			<div id="footer-contacts">
+			<div class="footer-box footer-contacts">
 				<p id="footer-contacts-mail"
 					><a href="mailto:@viktoriianosova@hotmail.com"
 						>viktoriianosova@hotmail.com</a
@@ -56,7 +59,7 @@
 					><a href="tel: +380959105046">+380959105046</a></p
 				>
 			</div>
-			<div id="footer-sitemap">
+			<div class="footer-box footer-sitemap">
 				<ul>
 					<div class="group">
 						<li><a>Projects</a></li>
