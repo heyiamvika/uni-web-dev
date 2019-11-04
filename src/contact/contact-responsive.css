@@ -1,0 +1,44 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+	/* Contact wrapper */
+
+	main #contact-wrapper {
+		flex-direction: column;
+	}
+
+	/* Contact info */
+	main #contact-info,
+	main #contact-form,
+	main #contact-info h2,
+	main #contact-info #contact-info-summary {
+		max-width: 100%;
+	}
+
+	main #contact-info,
+	main #contact-info #contact-info-summary,
+	main #contact-info #contact-info-contacts {
+		margin-bottom: 70px;
+	}
+
+	/* Contact form */
+
+	main #contact-form form {
+		flex-direction: column;
+	}
+
+	main #contact-form input,
+	main #contact-form .input-short,
+	main #contact-form textarea {
+		width: 100%;
+	}
+
+	main #contact-form input,
+	main #contact-form .input-short {
+		height: 7vh;
+		margin-bottom: 50px;
+	}
+
+	main #contact-form textarea {
+		height: 20vh;
+		margin-bottom: 100px;
+	}
+}
