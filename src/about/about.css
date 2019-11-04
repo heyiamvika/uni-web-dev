@@ -38,8 +38,55 @@ main #about-head p {
 /* Achievments */
 
 main #about-achievments {
-	height: 240px;
+	min-height: 240px;
 	background-color: #10c9c3;
+	padding: 102px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+main #about-achievments .box {
+	min-width: 235px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+main #about-achievments .box img {
+	width: 40px;
+	height: 36px;
+	color: #ffffff;
+
+	margin-right: 28px;
+}
+
+main #about-achievments .box .text-box {
+	display: flex;
+	flex-direction: column;
+	max-width: 170px;
+}
+
+main #about-achievments .box .text-box span {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 1.2px;
+	text-align: left;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+main #about-achievments .box .text-box .text-box-count {
+	font-size: 18px;
+	line-height: 1.67;
+}
+
+main #about-achievments .box .text-box .text-box-text {
+	font-size: 12px;
+	line-height: 2.5;
 }
 
 /* About me */
