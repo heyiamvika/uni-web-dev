@@ -209,7 +209,21 @@ footer #footer-sitemap ul .group:nth-child(2) {
 	line-height: 1.67;
 }
 
-.white-capitalized-text {
+.capitalized-text {
 	font-size: 12px;
 	line-height: 2.5;
+}
+
+.navigation-text {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 7;
+	letter-spacing: 1.2px;
+	text-align: left;
+	color: #1d1d1d;
+
+	text-transform: uppercase;
 }

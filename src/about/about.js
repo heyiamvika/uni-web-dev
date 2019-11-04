@@ -38,7 +38,7 @@ function appendAchievments() {
 		const count = document.createElement('span');
 		count.className = 'about-text count-text';
 		const text = document.createElement('span');
-		text.className = 'about-text white-capitalized-text';
+		text.className = 'about-text capitalized-text';
 
 		count.innerHTML = String(Math.round(item.count));
 		text.innerHTML = item.title;
