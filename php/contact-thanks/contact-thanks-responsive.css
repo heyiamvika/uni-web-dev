@@ -1,0 +1,14 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+	main {
+		display: flex;
+		padding: 100px 0;
+	}
+
+	main #wrapper {
+		width: 80%;
+		min-height: 80vh;
+		margin: auto;
+
+		padding: 100px;
+	}
+}
