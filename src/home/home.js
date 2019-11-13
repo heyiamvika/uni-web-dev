@@ -1,6 +1,6 @@
 addHovers();
 
-function addHover() {
+function addHovers() {
 	const wrapper = document.getElementsByClassName('project-wrapper');
 	const newProjectHover = document.getElementsByClassName('project-hover');
 

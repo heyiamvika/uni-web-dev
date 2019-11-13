@@ -38,6 +38,31 @@ main #home-grid #grid-row .project-wrapper div {
 	left: 0;
 }
 
+main #home-grid .box-dark,
+main #home-grid #grid-row .project-wrapper .project .opacity-dark {
+	background-color: #838383;
+}
+
+main #home-grid .box-light.project-hover,
+main #home-grid #grid-row .project-wrapper .project .opacity-light {
+	background-color: #dddddd;
+}
+
+main #home-grid #grid-row .project-wrapper .project .project-img,
+main #home-grid #grid-row .project-wrapper .project .project-opacity {
+	width: 100%;
+	height: 100%;
+}
+
+main #home-grid #grid-row .project-wrapper .project .project-opacity {
+	opacity: 0.2;
+}
+
+main #home-grid #grid-row .project-wrapper .project .project-img {
+	width: 100%;
+	height: 100%;
+}
+
 main #home-grid #grid-row .project-wrapper .project-hover {
 	background-color: #10c9c3;
 	z-index: 1;
@@ -50,12 +75,4 @@ main #home-grid #grid-row .project-wrapper .project-hover {
 main #home-grid #grid-row .project-wrapper .project-hover .project-hover-img {
 	width: 48px;
 	height: 30px;
-}
-
-main #home-grid .box-dark {
-	background-color: #838383;
-}
-
-main #home-grid .box-light {
-	background-color: #dddddd;
 }

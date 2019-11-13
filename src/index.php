@@ -54,15 +54,17 @@
 
 					if (($isRowEven && $isElementEven) || (!$isRowEven && !$isElementEven)) {
 						echo "<div class=\"project box-dark\">
-						<img class=\"\" src=\"\">
+							<img class=\"project-img\" src=\"{$projects[$j]['img']}\">
+							<div class=\"project-opacity opacity-dark\"></div>
 						</div>";
 
 						echo "<div class=\"project-hover\">
-						<img class=\"project-hover-img\" src=\"../assets/code-hover.svg\">
+							<img class=\"project-hover-img\" src=\"../assets/code-hover.svg\">
 						</div>";
 					} else {
 						echo "<div class=\"project box-light\">
-						<img class=\"\" src=\"\">
+							<img class=\"project-img\" src=\"{$projects[$j]['img']}\">
+							<div class=\"project-opacity opacity-light\"></div>
 						</div>";
 
 						echo "<div class=\"project-hover\">
