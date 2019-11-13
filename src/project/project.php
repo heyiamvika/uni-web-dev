@@ -13,7 +13,7 @@
 		<header>
 			<img id="home-logo" src="../../assets/code.svg" />
 			<nav>
-				<a href="../index.html" class="nav-text">Home</a>
+				<a href="../index.php" class="nav-text">Home</a>
 				<a href="../about/about.html" class="nav-text">About</a>
 				<a href="../contact/contact.html" class="nav-text">Contact</a>
 			</nav>
@@ -22,17 +22,23 @@
 		<main>
 			<section id="project-wrapper">
 				<div id="project-info">
-					<h2 class="heading heading-black">Light Breakfast</h2>
 					<div id="text-wrapper">
+
+						<?php
+						// Get the content of the JSON file
+						 $json = file_get_contents('../../projects.json');
+						// decode the JSON into an associative array
+						$decoded = json_decode($json, true);
+
+						$projectIndex = $_GET['index'];
+						$projectInfo = $decoded['projects'][$projectIndex];
+						?>
+
+						<h2 class="heading heading-black">
+							<?=$projectInfo['title']?>
+						</h2>
 						<p id="project-info-summary" class="simple-text">
-							Light his can't a creeping. Be, bring blessed night. Replenish
-							blessed creature good. Saw earth every creepeth lights day,
-							divided abundantly form. In. Said given lights. Sixth the male.
-							Upon their multiply. Kind beast. Him tree upon.
-						</p>
-						<p id="project-info-summary" class="simple-text">
-							Cattle. Dominion day herb she'd creeping divide darkness. Which.
-							Subdue had.
+							<?=$projectInfo['description']?>
 						</p>
 					</div>
 					<div id="project-info-details">
@@ -40,13 +46,13 @@
 							<span class="simple-text-heading">Client:</span>
 							<span>
 								<a href="">
-									Emma Morris
+								<?=$projectInfo['client']?>
 								</a>
 							</span>
 						</p>
 						<p class="project-info-details-row simple-text">
 							<span class="simple-text-heading">Date:</span>
-							<span>25.06.2017</span>
+							<span><?=$projectInfo['date']?></span>
 						</p>
 						<p class="contact-info-contacts-row simple-text">
 							<span class="simple-text-heading">Share:</span>
@@ -57,16 +63,18 @@
 						</p>
 					</div>
 				</div>
-				<div id="project-image"> </div>
+				<div id="project-image">
+					<img src=<?=$projectInfo['img']?>>
+				</div>
 			</section>
 
 			<section id="project-navigation">
-				<a href="" id="link-previous">
+				<a id="link-previous">
 					<img src="../../assets/left-arrow.svg" />
 					<span class="navigation-text">previous project</span>
 				</a>
 				<img id="project-navigation-center-img" src="../../assets/code.svg" />
-				<a href="" id="link-next">
+				<a id="link-next">
 					<span class="navigation-text">next project</span>
 					<img src="../../assets/right-arrow.svg" />
 				</a>

@@ -18,7 +18,7 @@ function addHoversAndEvents() {
 		}
 
 		function mouseClick(index) {
-			window.location = `./project/project.html?index=${index}`;
+			window.location = `./project/project.php?index=${index}`;
 		}
 
 		for (let i = 0; i < wrapper.length; i++) {
