@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Основи WEB-програмування - Thank you!</title>
-	<link rel="stylesheet" href="../../src/index.css" />
+	<link rel="stylesheet" href="../index.css" />
 	<link rel="stylesheet" href="./contact-thanks.css" />
 	<link rel="stylesheet" href="./contact-thanks-responsive.css" />
 </head>
@@ -14,9 +14,9 @@
 	<header>
 		<img id="home-logo" src="../../assets/code.svg" />
 		<nav>
-			<a href="../../src/index.html" class="nav-text">Home</a>
-			<a href="../../src/about/about.html" class="nav-text">About</a>
-			<a href="../../src/contact/contact.html" id="focused" class="nav-text">Contact</a>
+			<a href="../index.html" class="nav-text">Home</a>
+			<a href="../about/about.html" class="nav-text">About</a>
+			<a href="../contact/contact.html" id="focused" class="nav-text">Contact</a>
 		</nav>
 	</header>
 
