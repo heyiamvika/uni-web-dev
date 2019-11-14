@@ -16,7 +16,7 @@
 		<nav>
 			<a href="./index.html" id="focused" class="nav-text">Home</a>
 			<a href="./about/about.html" class="nav-text">About</a>
-			<a href="./contact/contact.html" class="nav-text">Contact</a>
+			<a href="./contact/contact.php" class="nav-text">Contact</a>
 		</nav>
 	</header>
 
@@ -29,9 +29,7 @@
 
 		<section id="home-grid">
 			<!-- Elements are insersted dynamically, through PHP. -->
-			<?=
-				include './home/home.php';
-			?>
+			<?php include './home/home.php'; ?>
 		</section>
 	</main>
 

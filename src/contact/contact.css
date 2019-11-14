@@ -63,6 +63,10 @@ main #contact-form textarea {
 	color: #000000;
 }
 
+main #contact-form .invalid {
+	border: 2px solid red;
+}
+
 main #contact-form input {
 	height: 48px;
 }

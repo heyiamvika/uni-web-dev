@@ -14,38 +14,38 @@
 	<header>
 		<img id="home-logo" src="../../assets/code.svg" />
 		<nav>
-			<a href="../index.html" class="nav-text">Home</a>
+			<a href="../index.php" class="nav-text">Home</a>
 			<a href="../about/about.html" class="nav-text">About</a>
-			<a href="../contact/contact.html" id="focused" class="nav-text">Contact</a>
+			<a href="../contact/contact.php" id="focused" class="nav-text">Contact</a>
 		</nav>
 	</header>
 
 	<main>
 		<div id="wrapper">
 			<h1 class="simple-text-heading ">Thank you for your comment!</h1>
-			<p class="simple-text">You submitted the form with the following info:</p>
-			<?=
-				"<div id=\"submitted-info\">
-					<p id=\"submitted-name\">
-						<span class=\"simple-text-heading\">Name:</span>
-						<span class=\"simple-text\">{$_POST['user-name']}</span>
-					</p>
-					<p id=\"submitted-email\">
-						<span class=\"simple-text-heading\">Email:</span>
-						<span class=\"simple-text\">{$_POST['user-email']}</span>
-					</p>
-					<p id=\"submitted-title\">
-					   <span class=\"simple-text-heading\">Title:</span>
-					   <span class=\"simple-text\">{$_POST['user-title']}</span>
-				  	</p>
-				    <p id=\"submitted-comment\">
-						<span class=\"simple-text-heading\">Comment:</span>
-						<span class=\"simple-text\">{$_POST['user-comment']}</span>
-			 	    </p>
-				</div>"
+			<!-- <p class="simple-text">You submitted the form with the following info:</p> -->
+			<?php
+			// echo "<div id=\"submitted-info\">
+			// 		<p id=\"submitted-name\">
+			// 			<span class=\"simple-text-heading\">Name:</span>
+			// 			<span class=\"simple-text\">{$_POST['user-name']}</span>
+			// 		</p>
+			// 		<p id=\"submitted-email\">
+			// 			<span class=\"simple-text-heading\">Email:</span>
+			// 			<span class=\"simple-text\">{$_POST['user-email']}</span>
+			// 		</p>
+			// 		<p id=\"submitted-title\">
+			// 		   <span class=\"simple-text-heading\">Title:</span>
+			// 		   <span class=\"simple-text\">{$_POST['user-title']}</span>
+			// 	  	</p>
+			// 	    <p id=\"submitted-comment\">
+			// 			<span class=\"simple-text-heading\">Comment:</span>
+			// 			<span class=\"simple-text\">{$_POST['user-comment']}</span>
+			//  	    </p>
+			// 	</div>"
 			?>
 			<button class="green-button" id="back-home-button">
-				<a href="../../src/index.html">Back home</a>
+				<a href="../../src/index.php">Back home</a>
 			</button>
 		</div>
 	</main>

@@ -57,5 +57,5 @@ function appendAchievments() {
 
 function addButtonEvent() {
 	const button = document.getElementById('contact-button');
-	button.onclick = event => (window.location.href = '../contact/contact.html');
+	button.onclick = event => (window.location.href = '../contact/');
 }
