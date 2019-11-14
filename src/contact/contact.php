@@ -1,4 +1,6 @@
-<?php include "./contact-validate.php"; ?>
+<?php
+include "./contact-validate.php";
+?>
 
 <!DOCTYPE html>
 
@@ -23,6 +25,9 @@
 	</header>
 
 	<main>
+		<?php
+		include "../../env.php";
+		?>
 		<div id="contact-wrapper">
 			<section id="contact-info">
 				<h2 class="heading heading-black">Contact Info:</h2>
@@ -35,7 +40,7 @@
 					<p class="contact-info-contacts-row simple-text">
 						<span class="simple-text-heading">Address:</span>
 						<span>
-							<a href="http://maps.google.com/?q= 10111 Santa Monica Boulevard, LA">
+							<a href="http://maps.google.com/?q=10111 Santa Monica Boulevard, LA">
 								10111 Santa Monica Boulevard, LA
 							</a>
 						</span>
@@ -55,7 +60,6 @@
 				</div>
 			</section>
 			<section id="contact-form">
-				<!-- ../contact-thanks/contact-thanks.php -->
 				<form name="send-message-form" method="post" action="">
 					<input type="text" class="input-short simple-text <?= $nameValid ? "" : invalid ?>" name="user-name" placeholder="Your Name" value="<?= $name ?>" required />
 					<input type="email" class="input-short simple-text <?= $emailValid ? "" : invalid ?>" name="user-email" placeholder="Your Email" value="<?= $email ?>" required />
@@ -68,7 +72,7 @@
 		</div>
 		<section id="contact-map">
 			<div id="google-map">
-				<iframe width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ0f2g9vDO1EARuzkLWkmmlMU&key=<?= getenv('GOOGLE_API') ?>" allowfullscreen></iframe>
 			</div>
 		</section>
 	</main>
@@ -112,7 +116,7 @@
 			</ul>
 		</div>
 	</footer>
-	<script src="./contact.js"></script>
+	<!-- <script src="./contact.js"></script> -->
 </body>
 
 </html>
