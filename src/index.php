@@ -22,7 +22,7 @@
 
 	<main>
 		<section id="home-head">
-			<h1 class="heading heading-black">Frontend Developer</h1>
+			<h1 class="heading heading-black">Viktoriia Nosova</h1>
 			<p class="simple-text">I am a Frontend Developer based in Kyiv, specializing in JavaScript
 				and Interfaces Development.</p>
 		</section>
