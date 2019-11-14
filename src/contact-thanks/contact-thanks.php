@@ -1,3 +1,10 @@
+<?php
+// I use session for passing variables between modules
+session_start();
+$session = $_SESSION['POST'];
+unset($_SESSION['POST']);
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -25,24 +32,24 @@
 			<h1 class="simple-text-heading ">Thank you for your comment!</h1>
 			<!-- <p class="simple-text">You submitted the form with the following info:</p> -->
 			<?php
-			// echo "<div id=\"submitted-info\">
-			// 		<p id=\"submitted-name\">
-			// 			<span class=\"simple-text-heading\">Name:</span>
-			// 			<span class=\"simple-text\">{$_POST['user-name']}</span>
-			// 		</p>
-			// 		<p id=\"submitted-email\">
-			// 			<span class=\"simple-text-heading\">Email:</span>
-			// 			<span class=\"simple-text\">{$_POST['user-email']}</span>
-			// 		</p>
-			// 		<p id=\"submitted-title\">
-			// 		   <span class=\"simple-text-heading\">Title:</span>
-			// 		   <span class=\"simple-text\">{$_POST['user-title']}</span>
-			// 	  	</p>
-			// 	    <p id=\"submitted-comment\">
-			// 			<span class=\"simple-text-heading\">Comment:</span>
-			// 			<span class=\"simple-text\">{$_POST['user-comment']}</span>
-			//  	    </p>
-			// 	</div>"
+			echo "<div id=\"submitted-info\">
+					<p id=\"submitted-name\">
+						<span class=\"simple-text-heading\">Name:</span>
+						<span class=\"simple-text\">{$session['user-name']}</span>
+					</p>
+					<p id=\"submitted-email\">
+						<span class=\"simple-text-heading\">Email:</span>
+						<span class=\"simple-text\">{$session['user-email']}</span>
+					</p>
+					<p id=\"submitted-title\">
+					   <span class=\"simple-text-heading\">Title:</span>
+					   <span class=\"simple-text\">{$session['user-title']}</span>
+				  	</p>
+				    <p id=\"submitted-comment\">
+						<span class=\"simple-text-heading\">Comment:</span>
+						<span class=\"simple-text\">{$session['user-comment']}</span>
+			 	    </p>
+				</div>"
 			?>
 			<button class="green-button" id="back-home-button">
 				<a href="../../src/index.php">Back home</a>
