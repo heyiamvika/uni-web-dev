@@ -73,7 +73,7 @@
 		</div>
 	</footer>
 
-	<script src="home/home.js" type="module"></script>
+	<script src="home/home.js"></script>
 </body>
 
 </html>
