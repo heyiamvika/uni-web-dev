@@ -22,4 +22,9 @@
 		width: 100%;
 		height: 60vh;
 	}
+
+	main #home-grid #grid-row .project-wrapper .project .project-img,
+	main #home-grid #grid-row .project-wrapper .project .project-opacity {
+		object-fit: cover;
+	}
 }
